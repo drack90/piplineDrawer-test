@@ -1,0 +1,59 @@
+﻿.piplineSections{
+    margin-top: 60px;
+}
+.pipline-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+canvas {
+    border: 2px solid #1b6ec2;
+    border-radius: 10px;
+
+    max-height: 500px;
+}
+.canvas_active{
+    border: 2px solid #ff6a00;
+}
+.canvasBoard_componen {
+    display: flex;
+    flex-direction: column;
+}
+
+.canvasBoard_componen button:not(:first-child) {
+    margin-top: 20px;
+}
+.piplineElements{
+    border: 2px solid #1b6ec2;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 50px;
+    height: fit-content;
+    margin-top: 30px;
+    padding: 20px;
+}
+.piplineList{
+    padding-inline-start: 0;
+}
+.piplineList>li {
+    margin-bottom: 15px;
+    list-style-type: none;
+    padding: 0 10px;
+
+}
+.pipline-btn {
+    border: none;
+    background: none;
+}
+.pipline-btn__active {
+    background: #94c0ec;
+    border-radius: 10px;
+}
+
+.red{
+    color: #c21b1b;
+}
+.red:hover{
+    color: #4e0d0d;
+}

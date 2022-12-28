@@ -1,0 +1,9 @@
+﻿.canvasBoard__componen{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.canvasBoard__componen button:not(:first-child) {
+    margin-top: 20px;
+}
